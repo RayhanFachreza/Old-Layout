@@ -49,24 +49,43 @@ table {
 
 /* ! Mari Mulai Desain */
 
+
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px/28px;
 	background-image: url(/img/background.png);
 }
 
 .container {
-	width: 800px;
+	width: 750px;
 	margin: auto;
-	background-color: red;
+	background-color: white;
 	border-top: 1mm solid blue;
+}
 
 .header {
 	padding: 25px;
 }
 
-.header .judul {
-	font-size: 100px;
+.header .judul	{
+	font-variant-caps: small-caps;
+	font-size: 40px;
 	font-weight: bold;
-	font-variant: small-caps;
+	color: black;
+}
 
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 23px;
+}
+
+.header a {
+	color: black;
+}
+
+.header a:hover {
+	background-color: red;
+	color: blue;
 }

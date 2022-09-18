@@ -59,8 +59,10 @@ body {
 .container {
 	width: 750px;
 	margin: auto;
-	background-color: white;
-	border-top: 1mm solid blue;
+	background-color: red;
+	border-top: 3mm solid blue;
+	border-left: 2mm double black;
+	border-right: 2mm double black;
 }
 
 .header {
@@ -89,3 +91,37 @@ body {
 	background-color: red;
 	color: blue;
 }
+
+.hero {
+	height: 250px;
+	background-image: url(/img/hero.jpg);
+	background-size: cover;
+	border: 1mm solid blue;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+.content .penulis	{
+	font-size: 10px;
+	margin-top: -2px;
+}
+
+.content p {
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: blue;
+	height: 50px;
+	
+
+}
+

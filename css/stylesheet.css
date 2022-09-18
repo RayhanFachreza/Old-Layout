@@ -49,9 +49,24 @@ table {
 
 /* ! Mari Mulai Desain */
 
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-image: url(/img/background.png);
+}
+
 .container {
 	width: 800px;
 	margin: auto;
-	
+	background-color: red;
+	border-top: 1mm solid blue;
+
+.header {
+	padding: 25px;
 }
 
+.header .judul {
+	font-size: 100px;
+	font-weight: bold;
+	font-variant: small-caps;
+
+}
